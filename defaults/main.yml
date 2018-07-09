@@ -9,7 +9,6 @@ php_packages:
   - php7.2-fpm
   - php7.2-mysql
   - php7.2-gd
-  - php7.2-mcrypt
   - php7.2-mbstring
 php_timezone: Europe/Warsaw
 php_upload_max_filesize: "20M"
