@@ -4,7 +4,7 @@ https://galaxy.ansible.com/itcraftsmanpl/php7/
 
 An Ansible role that installs and configure PHP 7 on Debian/Ubuntu servers.
 
-Current PHP7 version: **7.3.7**
+Current PHP7 version: **7.3.13**
 
 ## Requirements
 
