@@ -1,15 +1,16 @@
 ---
+php_version: "7.3"
 php_ppa: "ppa:ondrej/php"
 php_packages:
-  - php7.2-common
-  - php7.2-cli
-  - php7.2-intl
-  - php7.2-curl
-  - php7.2-cgi
-  - php7.2-fpm
-  - php7.2-mysql
-  - php7.2-gd
-  - php7.2-mbstring
+  - "php{{ php_version }}-common"
+  - "php{{ php_version }}-cli"
+  - "php{{ php_version }}-intl"
+  - "php{{ php_version }}-curl"
+  - "php{{ php_version }}-cgi"
+  - "php{{ php_version }}-fpm"
+  - "php{{ php_version }}-mysql"
+  - "php{{ php_version }}-gd"
+  - "php{{ php_version }}-mbstring"
 php_timezone: Europe/Warsaw
 php_upload_max_filesize: "20M"
 php_post_max_size: "20M"

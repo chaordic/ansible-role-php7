@@ -1,4 +1,7 @@
 ---
 - name: restart php7-fpm
-  service: name=php7.2-fpm enabled=yes state=restarted
+  service:
+    name: "php{{ php_version }}-fpm"
+    enabled: yes
+    state: restarted
   become: yes
